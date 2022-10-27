@@ -2,7 +2,7 @@ package org.algorithm.임태형;
 
 import java.util.Scanner;
 
-public class Main {
+public class 문자찾기 {
 
     private static int solution(String str, char c) {
         int count = 0;
