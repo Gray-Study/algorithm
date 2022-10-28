@@ -18,6 +18,7 @@ public class 특정_문자_뒤집기 {
                 s[rt] = tmp;
                 lt++;
                 rt--;
+
             }
         }
         answer = String.valueOf(s);
