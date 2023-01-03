@@ -12,7 +12,7 @@ public class 회문문자열 {
         int lastIndex = str.length() - 1;
 
         for (int i = 0; i <= lastIndex; i++) {
-            if (chars[i] != chars[lastIndex-i]) return "NO";
+            if (chars[i] != chars[lastIndex - i]) return "NO";
         }
 
         return "YES";
